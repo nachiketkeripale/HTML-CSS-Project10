@@ -1,0 +1,173 @@
+* { 
+ margin: 0;
+  font-family: "Poppins";
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./assets/retro-living-room-interior-design.jpg);
+    background-size: 100% 100vh;
+}
+
+.navbar-container {
+    display: flex;
+    width: 100%;
+    height: 20vh;
+}
+
+.navbar-logo {
+   width: 200px;
+   height: 15vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.navbar-logo img {
+    width: 150px;
+    color: #fff;
+}
+
+.navbar-borderbottom {
+    margin-left: 200px;
+    height: 15vh;
+    width: 60%;
+    display: flex;
+    border-bottom: 3px solid #fff;
+    justify-content: flex-end;
+}
+
+.navbar-list {
+    width: 75%;
+    justify-content: flex-start;
+}
+
+.list {
+    height: 15vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 40px;
+    color: #fff;
+}
+
+.list-item {
+    list-style: none;
+}
+
+.navbar-contact {
+    height: 15vh;
+    width: 30%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.contact-logo img {
+    fill: #fff;
+    width: 50px;
+}
+
+.contact-phoneno {
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+
+.banner-leftcontainer {
+    width: 50%;
+    height: 50vh;
+}
+
+.banner-righcontainer {
+    
+    width: 50%;
+    height: 50vh;
+}
+
+.heading-text {
+    margin-left: 50px;
+    font-size: 55px;
+    color: #fff;
+}
+
+.banner-button {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.banner-button button {
+    background: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+}
+
+.banner-rightcontainer {
+    position: relative;
+}
+
+.block1 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 3px ;
+    margin-left: 200px;
+}
+
+.block1 img {
+    margin: 10px 0 0 10px;
+    width: 35px;
+    padding: 5px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.block1 p {
+    margin: 20px 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.block2 {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 3px ;
+    margin-top: 250px;
+}
+
+.block2 img {
+    margin: 10px 0 0 10px;
+    width: 35px;
+    padding: 5px 30px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.block2 p {
+    margin: 20px 0 0 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
+
+
