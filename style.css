@@ -170,4 +170,326 @@
 
 
 
+@media screen and (max-width:480px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./assets/retro-living-room-interior-design.jpg);
+        background-size: 100% 100vh;
+        z-index: -1;
+    }
 
+    .navbar-container {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+    }
+    
+    .navbar-logo {
+       width: 30%;
+       height: 10vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .navbar-logo img {
+        width: 70%;
+        color: #fff;
+    }
+    
+    .navbar-borderbottom {
+        all: unset;
+        width: 80%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar-list {
+        display: none;
+    }
+    
+    .navbar-contact {
+        all: unset;
+        width: 50%;
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .contact-logo img {
+        all: unset;
+        width: 2rem;
+        fill: #fff;
+    }
+    
+    .contact-phoneno {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-leftcontainer {
+        width: 100%;
+        height: unset;
+    }
+
+    .banner-rightcontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heading-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .banner-button {
+        margin-left: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+.banner-button button {
+    background: transparent;
+    width: 30%;
+    height: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+}
+
+.block1 {
+    width: 40%;
+    height: 40%;
+    position: unset;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-self: end;
+    flex-direction: column;
+}
+
+.block1 img {
+    margin: 5px;
+    width: 18px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+.block1 p {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.block2 {
+    width: 40%;
+    height: 40%;
+    position: unset;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block2 img {
+    margin: 5px;
+    width: 18px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+.block2 p {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+}
+
+
+@media screen and (min-width:481px) and (max-width:900px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-image: url(./assets/retro-living-room-interior-design.jpg);
+        background-size: 100% 100vh;
+        z-index: -1;
+    }
+
+    .navbar-container {
+        display: flex;
+        width: 100%;
+        height: 10vh;
+    }
+    
+    .navbar-logo {
+       width: 30%;
+       height: 10vh;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    
+    .navbar-logo img {
+        width: 70%;
+        color: #fff;
+    }
+    
+    .navbar-borderbottom {
+        all: unset;
+        width: 80%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .navbar-list {
+        display: none;
+    }
+    
+    .navbar-contact {
+        all: unset;
+        width: 50%;
+        display: flex;
+        margin-top: 10px;
+    }
+    
+    .contact-logo img {
+        all: unset;
+        width: 2rem;
+        fill: #fff;
+    }
+    
+    .contact-phoneno {
+        all: unset;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        color: #fff;
+        font-size: 14px;
+    }
+    
+    .banner {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-leftcontainer {
+        width: 100%;
+        height: unset;
+    }
+
+    .banner-rightcontainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .heading-text {
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: #fff;
+        text-align: center;
+    }
+    
+    .banner-button {
+        margin-left: unset;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+    
+.banner-button button {
+    background: transparent;
+    width: 30%;
+    height: 2rem;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    border-color: #fff;
+    border-radius: 20px;
+}
+
+.block1 {
+    width: 40%;
+    height: 40%;
+    position: unset;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-self: end;
+    flex-direction: column;
+}
+
+.block1 img {
+    margin: 5px;
+    width: 18px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+.block1 p {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.block2 {
+    width: 40%;
+    height: 40%;
+    position: unset;
+    background-color: rgba(255,255,255,.4);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block2 img {
+    margin: 5px;
+    width: 18px;
+    padding: 5px 20px;
+    background-color: #fff;
+    border-radius: 13px;
+}
+
+.block2 p {
+    margin: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+}
+}
